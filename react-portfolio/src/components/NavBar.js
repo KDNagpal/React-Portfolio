@@ -13,7 +13,7 @@ function NavBar({ currentPage, handlePageChange }) {
             onClick={() => handlePageChange('Home')}
             className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
           >
-            Rapid Rentals
+            My Portfolio
           </Navbar.Brand>
           <Nav className="ms-auto">
             <Nav.Link
@@ -24,40 +24,31 @@ function NavBar({ currentPage, handlePageChange }) {
               Home
             </Nav.Link>
             <Nav.Link
-              href="#catalog"
-              onClick={() => handlePageChange('Catalog')}
+              href="#projects"
+              onClick={() => handlePageChange('Projects')}
               className={
-                currentPage === 'Catalog' ? 'nav-link active' : 'nav-link'
+                currentPage === 'Projects' ? 'nav-link active' : 'nav-link'
               }
             >
-              Catalog
+              Projects
             </Nav.Link>
             <Nav.Link
-              href="#myorders"
-              onClick={() => handlePageChange('MyRentals')}
+              href="#resume"
+              onClick={() => handlePageChange('Resume')}
+              className={
+                currentPage === 'Resume' ? 'nav-link active' : 'nav-link'
+              }
+            >
+              Resume
+            </Nav.Link>
+            <Nav.Link
+              href="#contactme"
+              onClick={() => handlePageChange('ContactMe')}
               className={
                 currentPage === 'MyRentals' ? 'nav-link active' : 'nav-link'
               }
             >
-              My Rentals
-            </Nav.Link>
-            <Nav.Link
-              href="#booking"
-              onClick={() => handlePageChange('Booking')}
-              className={
-                currentPage === 'MyRentals' ? 'nav-link active' : 'nav-link'
-              }
-            >
-              Book Now
-            </Nav.Link>
-            <Nav.Link
-              href="#signup"
-              onClick={() => handlePageChange('Signup')}
-              className={
-                currentPage === 'Signup' ? 'nav-link active' : 'nav-link'
-              }
-            >
-              Sign up
+              Contact me
             </Nav.Link>
           </Nav>
         </Container>

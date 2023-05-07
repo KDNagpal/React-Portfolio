@@ -1,0 +1,39 @@
+.catalog-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Use 100% of the viewport height */
+  }
+  
+  .catalog-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Wrap items if there's not enough space */
+    gap: 1rem; /* Add space between images */
+  }
+  
+  .catalog-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .catalog-item a {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0.5rem; /* Add horizontal margin between images */
+  }
+  
+  .catalog-item h3 {
+    margin: 0;
+    text-align: center;
+  }
+  
+  .catalog-item p {
+    margin: 0;
+    text-align: center;
+  }
+  

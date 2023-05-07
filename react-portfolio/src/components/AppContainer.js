@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 import NavBar from './NavBar';
 import Home from './pages/Home';
-import Signup from './pages/Signup';
-import Catalog from './pages/Catalog';
-import MyRentals from './pages/MyRentals';
+import Projects from './pages/Projects';
+import Resume from './pages/Resume';
 import Footer from './Footer'
-import Booking from './pages/Booking'
+import ContactMe from './pages/ContactMe'
 
 const styles = {
   bg: {
@@ -21,16 +20,13 @@ export default function AppContainer() {
     if (currentPage === 'Home') {
       return <Home />;
     }
-    if (currentPage === 'Signup') {
-      return <Signup />;
+    if (currentPage === 'Projects') {
+      return <Projects />;
     }
-    if (currentPage === 'Catalog') {
-      return <Catalog />;
+    if (currentPage === 'ContactMe') {
+      return <ContactMe />;
     }
-    if (currentPage === 'Booking') {
-      return <Booking />;
-    }
-    return <MyRentals />;
+    return <Resume />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
