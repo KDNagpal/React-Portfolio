@@ -12,6 +12,9 @@ export default function App() {
         <MDBContainer className='text-center text-md-start mt-5'>
           <div className='text-center p-4'>
             &copy; {new Date().getFullYear()} Karandeep Nagpal - karandeepnagpal@gmail.com
+            <a href="https://github.com/KDNagpal" target="_blank" rel="noreferrer" className="github-icon">
+              <i className="fab fa-github fa-lg"></i>
+            </a>
           </div>
         </MDBContainer>
       </MDBFooter>

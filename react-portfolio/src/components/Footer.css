@@ -22,3 +22,13 @@
     margin-top: auto;
   }
   
+  .github-icon {
+    margin-left: 10px;
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .github-icon:hover {
+    color: #000;
+  }
+  

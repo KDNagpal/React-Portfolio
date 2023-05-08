@@ -39,7 +39,7 @@ function NavBar({ currentPage, handlePageChange }) {
                 currentPage === 'Resume' ? 'nav-link active' : 'nav-link'
               }
             >
-              Resume
+              Resumé
             </Nav.Link>
             <Nav.Link
               href="#contactme"

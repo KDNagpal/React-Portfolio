@@ -6,7 +6,7 @@ export default function Resume() {
     <div className="resume-container">
       <h1>Resume</h1>
       <h2>Coming Soon!</h2>
-      <p>Please check back later for updates on my resume.</p>
+      <p>Please check back later for updates on my resumé.</p>
     </div>
   );
 }
