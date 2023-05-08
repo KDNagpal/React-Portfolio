@@ -1,0 +1,57 @@
+.contact-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    max-width: 50%; /* Update this value to 50% */
+    width: 100%; /* Add this line to make sure the form takes up the available space */
+    padding: 2rem;
+    background-color: #f8f8f8;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+  }
+  
+  label {
+    align-self: flex-start;
+  }
+  
+  input,
+  textarea,
+  button {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  input,
+  textarea {
+    border: 1px solid #ccc;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
